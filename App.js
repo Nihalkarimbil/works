@@ -1,19 +1,18 @@
-
+import logo from './logo.svg';
 import './App.css';
+import Context from './component/Context';
+import Smpl from './component/Learn/Smpl';
+import Chiled from './component/Learn/Chiled';
 
-// import Btn from './components/Button';
-// import Form from './components/Form';
-import Todo from './components/Todo/Todo';
 
 function App() {
   return (
     <div className="App">
-       {/* <Btn /> */}
-      {/* <Form /> */}
-      {/* <But /> */}
-      <Todo />
-      </div>
-  )
+      <Context />
+      {/* <Smpl />
+      <Chiled /> */}
+    </div>
+  );
 }
 
 export default App;
